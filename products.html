@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<title>Bycicle Experts</title>
+<!--CSS FILES-->
+<link rel="stylesheet" type="text/css" href="css/reset.css" /> 
+<link rel="stylesheet" type="text/css" href="css/sample.css" />
+<!--JQUERY CSS EXTERNAL FILE-->
+<link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/ui-lightness/jquery-ui.css">
+<link href='http://fonts.googleapis.com/css?family=Hammersmith+One' rel='stylesheet' type='text/css'>
+<!--JAVASCRIPT FILES-->
+<!--JQUERY LINKS-->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+</script>
+<script src ="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js">
+</script>
+</head>
+<body>
+<div id="page-wrap">   
+    
+<!-- HEADER -->
+<header>
+<img src="images/be.png">
+    
+<form action="http://google.com/search">
+<input name="q" id="mysearch2" type="search" placeholder="search">
+</form>    
+    
+<ul>
+    <li><a href="#">Sign in</a></li>
+    <li><a href="#">MyBike</a></li>
+    <li><a href="#">BikeTech</a></li>
+    <li><a href="#">Info</a></li>
+    <li><a href="#">Careers</a></li>
+</ul>        
+</header>
+<!-- ///////// -->
+
+<!-- div -->
+  
+<!-- ///////// -->
+    
+    
+<!--NAVIGATION-->    
+<nav>
+<ul>
+    <li><a class="a-home active" href="index.html"><span>Home</span></a></li>
+    <li><a class="a-aboutus" href="aboutus.html"><span>About Us</span></a></li>
+    <li><a class="a-products not-active" href="products.html"><span>Products</span></a></li>
+    <li><a class="a-locations" href="locations.html"><span>Locations</span></a></li>
+    <li><a class="a-info" href="info.html"><span>Info</span></a></li>
+</ul>
+</nav>
+<!-- ///////// -->    
+
+<!-- div -->
+<div class="prodspage">
+<h1 class="font">Bycicle Experts Products</h1>
+<div class="shop">
+<!-- LEFT RECTANGLE /////////////  -->
+
+<aside class="prods">
+<form class="cart" id="cart-bike">
+
+<div class="bike1">  
+    <img src="images/bycicles/bike1.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>The Roadster</p>
+    <label for="bike1">Qty.:</label>
+    <input type="text" id="bike1" size="3" placeholder="0">
+</div> 
+
+<div class="bike2">  
+    <img src="images/bycicles/bike2.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>The Charlie</p>
+    <label for="bike2">Qty.:</label>
+    <input type="text" id="bike2" size="3" placeholder="0">
+</div> 
+    
+<div class="bike3">  
+    <img src="images/bycicles/bike3.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>Veloster</p>
+    <label for="bike3">Qty.:</label>
+    <input type="text" id="bike3" size="3" placeholder="0">
+</div> 
+    
+<div class="bike4">  
+    <img src="images/bycicles/bike4.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>Speedy</p>
+    <label for="bike4">Qty.:</label>
+    <input type="text" id="bike4" size="3" placeholder="0">
+</div> 
+
+</form>
+</aside>
+    
+<!-- RIGHT RECTANGLE ////////////// -->
+<article class="cart">
+<form class="cart2" id="cart-bike2">
+
+<div class="bike5">  
+    <img src="images/bycicles/bike5.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>Mr. Bike</p>
+    <label for="bike5">Qty.:</label>
+    <input type="text" id="bike5" size="3" placeholder="0">
+</div> 
+    
+<div class="bike6">  
+    <img src="images/bycicles/bike6.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>The King</p>
+    <label for="bike6">Qty.:</label>
+    <input type="text" id="bike6" size="3" placeholder="0">
+</div> 
+    
+<div class="bike7">  
+    <img src="images/bycicles/bike7.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>Blackie</p>
+    <label for="bike7">Qty.:</label>
+    <input type="text" id="bike7" size="3" placeholder="0">
+</div> 
+    
+<div class="bike8">  
+    <img src="images/bycicles/bike8.gif">
+    <p class="markdown">List price: $599.99*</p>
+    <span>$399.99</span>
+    <p>Supernatural</p>
+    <label for="bike8">Qty.:</label>
+    <input type="text" id="bike8" size="3" placeholder="0">
+</div>
+</form>
+</article>
+
+<section class="summary" id="summary">     
+<h1>Estimate Order</h1>
+<form class="cart3" id="cart-bike3">
+<div class="group-state">
+    <label for="s-state">State:</label>
+    <select id="s-state">
+        <option value="">- select -</option>
+        <option value="CA">California (7.5% tax)</option>
+        <option value="IL">Illinois</option>
+        <option value="NH">New Hampshire</option>
+        <option value="PA">Pennsylvania</option>
+    </select>
+</div>
+<div class="group-method">
+   <label for="r-method-pickup">Shipping Method:</label><br>
+
+<input type="radio" value="pickup" name="r_method" id="r-method-pickup" checked> <label for="r-method-pickup">Pickup (free)</label><br>
+    
+<input type="radio" value="usps" name="r_method" id="r-method-usps"><label for="r-method-usps">US Mail ($2/bottle)</label><br>
+    
+<input type="radio" value="ups" name="r_method" id="r-method-ups"><label for="r-method-usps">UPS ($2/bike)</label>
+</div>
+    
+<div class="group-special">
+<label for="c-special-gift">Special:</label><br>
+    <input type="checkbox" value="YES" id="c-special-gift"><label for="c-special-gift">This is a gift</label><br>
+    
+    <input type="checkbox" value="YES" id="c-special-gold"><label for="c-special-gold">Gold</label><br>
+    
+    <input type="checkbox" value="YES" id="c-special-cork"><label for="c-special-cork">Cork</label>
+</div>
+    
+<div class="group-calc">
+    <p>
+        <label for="btn-estimate">Click to estimate:</label>
+        <input type="submit" value="Estimate Total" id="btn-estimate">
+        <input type="text" id="txt-estimate" placeholder="$0.00">
+    </p>
+</div>
+
+<div class="results" id="results">
+    
+<p>Results go here.</p>    
+    
+</div>
+</form>
+</section>    
+</div>   
+</div>
+   
+<script src="js/script.js"></script>
+
+<footer>
+<p>&copy; Bycicle Experts, Inc. All rights reserved. | BEI | Fall 2014 | <a href="mailto:moiaf92101@maricopa.edu">moiaf92101@maricopa.edu</a></p>
+<img src="images/be.png">
+<span class="bottom">
+<ul>
+    <li><a href="locations.html">Assets</a></li>
+    <li><a href="locations.html">Legal</a></li>
+    <li><a href="locations.html">Support</a></li>
+    <li><a href="locations.html">Marketing</a></li>
+</ul>
+</span>
+</footer>
+
+</div>
+</body>
+
+</html>
